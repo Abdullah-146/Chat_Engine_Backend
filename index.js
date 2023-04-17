@@ -1,7 +1,7 @@
-const express = require("express");
+import express from "express";
 const cors = require("cors");
-const { default: axios } = require("axios");
-const dotenv = require("dotenv");
+import axios from "axios";
+import dotenv from "dotenv";
 
 dotenv.config();
 
