@@ -1,5 +1,5 @@
 import express from "express";
-const cors = require("cors");
+import cors from "cors";
 import axios from "axios";
 import dotenv from "dotenv";
 
